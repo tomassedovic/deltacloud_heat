@@ -2,11 +2,11 @@ Deltacloud client as a pluggable backend for Heat.
 
 # Setup
 
-1. Install OpenStack Heat with the pluggable-clients patches in:
+1. Install OpenStack Heat from the latest source:
 
-   <https://github.com/tomassedovic/heat/tree/pluggable-clients>
+   <https://github.com/openstack/heat>
 
-   (the patches should be merged to the upstream soon)
+   (the necessary code has been merged recently and didn't make it to a release yet)
 
 2. Install Deltacloud version 1.0.5
 
