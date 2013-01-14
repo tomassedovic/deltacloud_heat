@@ -17,7 +17,7 @@ class Clients(object):
     def keystone(self):
         pass
 
-    def nova(self):
+    def nova(self, service_type='compute'):
         return NovaClient(self.deltacloud_client)
 
     def swift(self):
